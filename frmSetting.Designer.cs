@@ -40,14 +40,14 @@ namespace Latest_27_05
             // 
             this.sampleDatabaseTextbox.Location = new System.Drawing.Point(318, 197);
             this.sampleDatabaseTextbox.Name = "sampleDatabaseTextbox";
-            this.sampleDatabaseTextbox.Size = new System.Drawing.Size(242, 20);
+            this.sampleDatabaseTextbox.Size = new System.Drawing.Size(285, 22);
             this.sampleDatabaseTextbox.TabIndex = 0;
             // 
             // SaveButton
             // 
-            this.SaveButton.Location = new System.Drawing.Point(485, 287);
+            this.SaveButton.Location = new System.Drawing.Point(318, 322);
             this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(75, 23);
+            this.SaveButton.Size = new System.Drawing.Size(75, 31);
             this.SaveButton.TabIndex = 1;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
@@ -60,7 +60,7 @@ namespace Latest_27_05
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(102, 197);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(210, 20);
+            this.label1.Size = new System.Drawing.Size(258, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Sample Database Location: ";
             // 
@@ -69,23 +69,23 @@ namespace Latest_27_05
             this.excal_location.AutoSize = true;
             this.excal_location.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.excal_location.ForeColor = System.Drawing.SystemColors.Control;
-            this.excal_location.Location = new System.Drawing.Point(192, 245);
+            this.excal_location.Location = new System.Drawing.Point(102, 245);
             this.excal_location.Name = "excal_location";
-            this.excal_location.Size = new System.Drawing.Size(120, 20);
+            this.excal_location.Size = new System.Drawing.Size(150, 25);
             this.excal_location.TabIndex = 3;
             this.excal_location.Text = "Excel Location: ";
             // 
             // excel_location
             // 
-            this.excel_location.Location = new System.Drawing.Point(318, 245);
+            this.excel_location.Location = new System.Drawing.Point(361, 245);
             this.excel_location.Name = "excel_location";
-            this.excel_location.Size = new System.Drawing.Size(242, 20);
+            this.excel_location.Size = new System.Drawing.Size(242, 22);
             this.excel_location.TabIndex = 4;
             // 
             // frmSetting
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.ClientSize = new System.Drawing.Size(899, 605);
+            this.ClientSize = new System.Drawing.Size(835, 575);
             this.Controls.Add(this.excel_location);
             this.Controls.Add(this.excal_location);
             this.Controls.Add(this.label1);

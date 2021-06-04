@@ -852,5 +852,17 @@ namespace Latest_27_05
         {
 
         }
+
+        private void loadButton_Click(object sender, EventArgs e)
+        {
+                       
+            frmLoad f2 = new frmLoad();
+            f2.ShowDialog(); // Shows Form2
+        }
+
+        private void query2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

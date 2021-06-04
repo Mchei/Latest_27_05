@@ -113,10 +113,11 @@ namespace Latest_27_05
             this.queriesTab.Controls.Add(this.queryPageTwo);
             this.queriesTab.Controls.Add(this.queryPageThree);
             this.queriesTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.queriesTab.Location = new System.Drawing.Point(22, 22);
+            this.queriesTab.Location = new System.Drawing.Point(29, 27);
+            this.queriesTab.Margin = new System.Windows.Forms.Padding(4);
             this.queriesTab.Name = "queriesTab";
             this.queriesTab.SelectedIndex = 0;
-            this.queriesTab.Size = new System.Drawing.Size(855, 523);
+            this.queriesTab.Size = new System.Drawing.Size(1140, 644);
             this.queriesTab.TabIndex = 1;
             // 
             // queryPageOne
@@ -144,10 +145,11 @@ namespace Latest_27_05
             this.queryPageOne.Controls.Add(this.q5);
             this.queryPageOne.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.queryPageOne.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.queryPageOne.Location = new System.Drawing.Point(4, 22);
+            this.queryPageOne.Location = new System.Drawing.Point(4, 25);
+            this.queryPageOne.Margin = new System.Windows.Forms.Padding(4);
             this.queryPageOne.Name = "queryPageOne";
-            this.queryPageOne.Padding = new System.Windows.Forms.Padding(3);
-            this.queryPageOne.Size = new System.Drawing.Size(847, 497);
+            this.queryPageOne.Padding = new System.Windows.Forms.Padding(4);
+            this.queryPageOne.Size = new System.Drawing.Size(1132, 615);
             this.queryPageOne.TabIndex = 0;
             this.queryPageOne.Text = "Query 1-5";
             // 
@@ -155,19 +157,21 @@ namespace Latest_27_05
             // 
             this.query4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query4.ForeColor = System.Drawing.Color.White;
-            this.query4.Location = new System.Drawing.Point(453, 204);
+            this.query4.Location = new System.Drawing.Point(604, 251);
+            this.query4.Margin = new System.Windows.Forms.Padding(4);
             this.query4.Name = "query4";
             this.query4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query4.Size = new System.Drawing.Size(374, 118);
+            this.query4.Size = new System.Drawing.Size(497, 144);
             this.query4.TabIndex = 212;
             this.query4.Text = "";
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(453, 180);
+            this.checkBox1.Location = new System.Drawing.Point(604, 222);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.Size = new System.Drawing.Size(18, 17);
             this.checkBox1.TabIndex = 211;
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
@@ -177,9 +181,10 @@ namespace Latest_27_05
             this.markFour.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.markFour.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.markFour.ForeColor = System.Drawing.SystemColors.Menu;
-            this.markFour.Location = new System.Drawing.Point(533, 177);
+            this.markFour.Location = new System.Drawing.Point(711, 218);
+            this.markFour.Margin = new System.Windows.Forms.Padding(4);
             this.markFour.Name = "markFour";
-            this.markFour.Size = new System.Drawing.Size(32, 21);
+            this.markFour.Size = new System.Drawing.Size(42, 25);
             this.markFour.TabIndex = 210;
             this.markFour.Text = "1";
             // 
@@ -187,9 +192,10 @@ namespace Latest_27_05
             // 
             this.q4.AutoSize = true;
             this.q4.ForeColor = System.Drawing.SystemColors.Control;
-            this.q4.Location = new System.Drawing.Point(474, 179);
+            this.q4.Location = new System.Drawing.Point(632, 220);
+            this.q4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q4.Name = "q4";
-            this.q4.Size = new System.Drawing.Size(53, 15);
+            this.q4.Size = new System.Drawing.Size(63, 17);
             this.q4.TabIndex = 209;
             this.q4.Text = "4 Marks:";
             // 
@@ -197,19 +203,22 @@ namespace Latest_27_05
             // 
             this.query2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query2.ForeColor = System.Drawing.Color.White;
-            this.query2.Location = new System.Drawing.Point(453, 42);
+            this.query2.Location = new System.Drawing.Point(604, 52);
+            this.query2.Margin = new System.Windows.Forms.Padding(4);
             this.query2.Name = "query2";
             this.query2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query2.Size = new System.Drawing.Size(374, 118);
+            this.query2.Size = new System.Drawing.Size(497, 144);
             this.query2.TabIndex = 208;
             this.query2.Text = "Select * from Account;";
+            this.query2.TextChanged += new System.EventHandler(this.query2_TextChanged);
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(453, 18);
+            this.checkBox2.Location = new System.Drawing.Point(604, 22);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox2.Size = new System.Drawing.Size(18, 17);
             this.checkBox2.TabIndex = 207;
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
@@ -219,9 +228,10 @@ namespace Latest_27_05
             this.markTwo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.markTwo.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.markTwo.ForeColor = System.Drawing.SystemColors.Menu;
-            this.markTwo.Location = new System.Drawing.Point(533, 13);
+            this.markTwo.Location = new System.Drawing.Point(711, 16);
+            this.markTwo.Margin = new System.Windows.Forms.Padding(4);
             this.markTwo.Name = "markTwo";
-            this.markTwo.Size = new System.Drawing.Size(32, 21);
+            this.markTwo.Size = new System.Drawing.Size(42, 25);
             this.markTwo.TabIndex = 206;
             this.markTwo.Text = "1";
             // 
@@ -229,9 +239,10 @@ namespace Latest_27_05
             // 
             this.q2.AutoSize = true;
             this.q2.ForeColor = System.Drawing.SystemColors.Control;
-            this.q2.Location = new System.Drawing.Point(474, 17);
+            this.q2.Location = new System.Drawing.Point(632, 21);
+            this.q2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q2.Name = "q2";
-            this.q2.Size = new System.Drawing.Size(53, 15);
+            this.q2.Size = new System.Drawing.Size(63, 17);
             this.q2.TabIndex = 205;
             this.q2.Text = "2 Marks:";
             // 
@@ -239,10 +250,11 @@ namespace Latest_27_05
             // 
             this.query1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query1.ForeColor = System.Drawing.Color.White;
-            this.query1.Location = new System.Drawing.Point(19, 42);
+            this.query1.Location = new System.Drawing.Point(25, 52);
+            this.query1.Margin = new System.Windows.Forms.Padding(4);
             this.query1.Name = "query1";
             this.query1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query1.Size = new System.Drawing.Size(374, 118);
+            this.query1.Size = new System.Drawing.Size(497, 144);
             this.query1.TabIndex = 204;
             this.query1.Text = "Select * from Account;";
             this.query1.TextChanged += new System.EventHandler(this.query1_TextChanged);
@@ -250,9 +262,10 @@ namespace Latest_27_05
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(19, 18);
+            this.checkBox3.Location = new System.Drawing.Point(25, 22);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox3.Size = new System.Drawing.Size(18, 17);
             this.checkBox3.TabIndex = 203;
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
@@ -262,9 +275,10 @@ namespace Latest_27_05
             this.markOne.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.markOne.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.markOne.ForeColor = System.Drawing.SystemColors.Menu;
-            this.markOne.Location = new System.Drawing.Point(99, 13);
+            this.markOne.Location = new System.Drawing.Point(132, 16);
+            this.markOne.Margin = new System.Windows.Forms.Padding(4);
             this.markOne.Name = "markOne";
-            this.markOne.Size = new System.Drawing.Size(32, 21);
+            this.markOne.Size = new System.Drawing.Size(42, 25);
             this.markOne.TabIndex = 202;
             this.markOne.Text = "1";
             // 
@@ -272,9 +286,10 @@ namespace Latest_27_05
             // 
             this.q1.AutoSize = true;
             this.q1.ForeColor = System.Drawing.SystemColors.Control;
-            this.q1.Location = new System.Drawing.Point(40, 17);
+            this.q1.Location = new System.Drawing.Point(53, 21);
+            this.q1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q1.Name = "q1";
-            this.q1.Size = new System.Drawing.Size(53, 15);
+            this.q1.Size = new System.Drawing.Size(63, 17);
             this.q1.TabIndex = 201;
             this.q1.Text = "1 Marks:";
             // 
@@ -282,19 +297,21 @@ namespace Latest_27_05
             // 
             this.query3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query3.ForeColor = System.Drawing.Color.White;
-            this.query3.Location = new System.Drawing.Point(19, 204);
+            this.query3.Location = new System.Drawing.Point(25, 251);
+            this.query3.Margin = new System.Windows.Forms.Padding(4);
             this.query3.Name = "query3";
             this.query3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query3.Size = new System.Drawing.Size(374, 118);
+            this.query3.Size = new System.Drawing.Size(497, 144);
             this.query3.TabIndex = 200;
             this.query3.Text = "";
             // 
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(19, 180);
+            this.checkBox4.Location = new System.Drawing.Point(25, 222);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
+            this.checkBox4.Size = new System.Drawing.Size(18, 17);
             this.checkBox4.TabIndex = 199;
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
@@ -304,9 +321,10 @@ namespace Latest_27_05
             this.markThree.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.markThree.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.markThree.ForeColor = System.Drawing.SystemColors.Menu;
-            this.markThree.Location = new System.Drawing.Point(99, 177);
+            this.markThree.Location = new System.Drawing.Point(132, 218);
+            this.markThree.Margin = new System.Windows.Forms.Padding(4);
             this.markThree.Name = "markThree";
-            this.markThree.Size = new System.Drawing.Size(32, 21);
+            this.markThree.Size = new System.Drawing.Size(42, 25);
             this.markThree.TabIndex = 198;
             this.markThree.Text = "1";
             // 
@@ -314,9 +332,10 @@ namespace Latest_27_05
             // 
             this.q3.AutoSize = true;
             this.q3.ForeColor = System.Drawing.SystemColors.Control;
-            this.q3.Location = new System.Drawing.Point(40, 179);
+            this.q3.Location = new System.Drawing.Point(53, 220);
+            this.q3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q3.Name = "q3";
-            this.q3.Size = new System.Drawing.Size(53, 15);
+            this.q3.Size = new System.Drawing.Size(63, 17);
             this.q3.TabIndex = 197;
             this.q3.Text = "3 Marks:";
             // 
@@ -324,19 +343,21 @@ namespace Latest_27_05
             // 
             this.query5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query5.ForeColor = System.Drawing.Color.White;
-            this.query5.Location = new System.Drawing.Point(19, 368);
+            this.query5.Location = new System.Drawing.Point(25, 453);
+            this.query5.Margin = new System.Windows.Forms.Padding(4);
             this.query5.Name = "query5";
             this.query5.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query5.Size = new System.Drawing.Size(374, 118);
+            this.query5.Size = new System.Drawing.Size(497, 144);
             this.query5.TabIndex = 192;
             this.query5.Text = "";
             // 
             // checkBox16
             // 
             this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(19, 345);
+            this.checkBox16.Location = new System.Drawing.Point(25, 425);
+            this.checkBox16.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(15, 14);
+            this.checkBox16.Size = new System.Drawing.Size(18, 17);
             this.checkBox16.TabIndex = 191;
             this.checkBox16.UseVisualStyleBackColor = true;
             // 
@@ -346,9 +367,10 @@ namespace Latest_27_05
             this.markFive.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.markFive.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.markFive.ForeColor = System.Drawing.SystemColors.Menu;
-            this.markFive.Location = new System.Drawing.Point(99, 341);
+            this.markFive.Location = new System.Drawing.Point(132, 420);
+            this.markFive.Margin = new System.Windows.Forms.Padding(4);
             this.markFive.Name = "markFive";
-            this.markFive.Size = new System.Drawing.Size(32, 21);
+            this.markFive.Size = new System.Drawing.Size(42, 25);
             this.markFive.TabIndex = 190;
             this.markFive.Text = "1";
             // 
@@ -356,9 +378,10 @@ namespace Latest_27_05
             // 
             this.q5.AutoSize = true;
             this.q5.ForeColor = System.Drawing.SystemColors.Control;
-            this.q5.Location = new System.Drawing.Point(40, 343);
+            this.q5.Location = new System.Drawing.Point(53, 422);
+            this.q5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q5.Name = "q5";
-            this.q5.Size = new System.Drawing.Size(53, 15);
+            this.q5.Size = new System.Drawing.Size(63, 17);
             this.q5.TabIndex = 189;
             this.q5.Text = "5 Marks:";
             // 
@@ -386,9 +409,10 @@ namespace Latest_27_05
             this.queryPageTwo.Controls.Add(this.checkBox11);
             this.queryPageTwo.Controls.Add(this.q10);
             this.queryPageTwo.Font = new System.Drawing.Font("Arial", 9F);
-            this.queryPageTwo.Location = new System.Drawing.Point(4, 22);
+            this.queryPageTwo.Location = new System.Drawing.Point(4, 25);
+            this.queryPageTwo.Margin = new System.Windows.Forms.Padding(4);
             this.queryPageTwo.Name = "queryPageTwo";
-            this.queryPageTwo.Size = new System.Drawing.Size(847, 497);
+            this.queryPageTwo.Size = new System.Drawing.Size(1132, 615);
             this.queryPageTwo.TabIndex = 1;
             this.queryPageTwo.Text = "Query 6-10";
             // 
@@ -396,10 +420,11 @@ namespace Latest_27_05
             // 
             this.query9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query9.ForeColor = System.Drawing.Color.White;
-            this.query9.Location = new System.Drawing.Point(453, 204);
+            this.query9.Location = new System.Drawing.Point(604, 251);
+            this.query9.Margin = new System.Windows.Forms.Padding(4);
             this.query9.Name = "query9";
             this.query9.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query9.Size = new System.Drawing.Size(374, 118);
+            this.query9.Size = new System.Drawing.Size(497, 144);
             this.query9.TabIndex = 185;
             this.query9.Text = "";
             // 
@@ -409,9 +434,10 @@ namespace Latest_27_05
             this.markNine.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.markNine.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.markNine.ForeColor = System.Drawing.SystemColors.Menu;
-            this.markNine.Location = new System.Drawing.Point(533, 177);
+            this.markNine.Location = new System.Drawing.Point(711, 218);
+            this.markNine.Margin = new System.Windows.Forms.Padding(4);
             this.markNine.Name = "markNine";
-            this.markNine.Size = new System.Drawing.Size(32, 21);
+            this.markNine.Size = new System.Drawing.Size(42, 25);
             this.markNine.TabIndex = 183;
             this.markNine.Text = "1";
             // 
@@ -419,10 +445,11 @@ namespace Latest_27_05
             // 
             this.query7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query7.ForeColor = System.Drawing.Color.White;
-            this.query7.Location = new System.Drawing.Point(453, 42);
+            this.query7.Location = new System.Drawing.Point(604, 52);
+            this.query7.Margin = new System.Windows.Forms.Padding(4);
             this.query7.Name = "query7";
             this.query7.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query7.Size = new System.Drawing.Size(374, 118);
+            this.query7.Size = new System.Drawing.Size(497, 144);
             this.query7.TabIndex = 181;
             this.query7.Text = "";
             // 
@@ -432,9 +459,10 @@ namespace Latest_27_05
             this.markSeven.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.markSeven.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.markSeven.ForeColor = System.Drawing.SystemColors.Menu;
-            this.markSeven.Location = new System.Drawing.Point(533, 13);
+            this.markSeven.Location = new System.Drawing.Point(711, 16);
+            this.markSeven.Margin = new System.Windows.Forms.Padding(4);
             this.markSeven.Name = "markSeven";
-            this.markSeven.Size = new System.Drawing.Size(32, 21);
+            this.markSeven.Size = new System.Drawing.Size(42, 25);
             this.markSeven.TabIndex = 179;
             this.markSeven.Text = "1";
             // 
@@ -442,10 +470,11 @@ namespace Latest_27_05
             // 
             this.query6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query6.ForeColor = System.Drawing.Color.White;
-            this.query6.Location = new System.Drawing.Point(19, 42);
+            this.query6.Location = new System.Drawing.Point(25, 52);
+            this.query6.Margin = new System.Windows.Forms.Padding(4);
             this.query6.Name = "query6";
             this.query6.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query6.Size = new System.Drawing.Size(374, 118);
+            this.query6.Size = new System.Drawing.Size(497, 144);
             this.query6.TabIndex = 177;
             this.query6.Text = "";
             // 
@@ -455,9 +484,10 @@ namespace Latest_27_05
             this.markSix.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.markSix.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.markSix.ForeColor = System.Drawing.SystemColors.Menu;
-            this.markSix.Location = new System.Drawing.Point(99, 13);
+            this.markSix.Location = new System.Drawing.Point(132, 16);
+            this.markSix.Margin = new System.Windows.Forms.Padding(4);
             this.markSix.Name = "markSix";
-            this.markSix.Size = new System.Drawing.Size(32, 21);
+            this.markSix.Size = new System.Drawing.Size(42, 25);
             this.markSix.TabIndex = 175;
             this.markSix.Text = "1";
             // 
@@ -465,10 +495,11 @@ namespace Latest_27_05
             // 
             this.query8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query8.ForeColor = System.Drawing.Color.White;
-            this.query8.Location = new System.Drawing.Point(19, 204);
+            this.query8.Location = new System.Drawing.Point(25, 251);
+            this.query8.Margin = new System.Windows.Forms.Padding(4);
             this.query8.Name = "query8";
             this.query8.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query8.Size = new System.Drawing.Size(374, 118);
+            this.query8.Size = new System.Drawing.Size(497, 144);
             this.query8.TabIndex = 173;
             this.query8.Text = "";
             // 
@@ -478,9 +509,10 @@ namespace Latest_27_05
             this.markEight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.markEight.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.markEight.ForeColor = System.Drawing.SystemColors.Menu;
-            this.markEight.Location = new System.Drawing.Point(99, 177);
+            this.markEight.Location = new System.Drawing.Point(132, 218);
+            this.markEight.Margin = new System.Windows.Forms.Padding(4);
             this.markEight.Name = "markEight";
-            this.markEight.Size = new System.Drawing.Size(32, 21);
+            this.markEight.Size = new System.Drawing.Size(42, 25);
             this.markEight.TabIndex = 171;
             this.markEight.Text = "1";
             // 
@@ -488,10 +520,11 @@ namespace Latest_27_05
             // 
             this.query10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query10.ForeColor = System.Drawing.Color.White;
-            this.query10.Location = new System.Drawing.Point(19, 368);
+            this.query10.Location = new System.Drawing.Point(25, 453);
+            this.query10.Margin = new System.Windows.Forms.Padding(4);
             this.query10.Name = "query10";
             this.query10.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query10.Size = new System.Drawing.Size(374, 118);
+            this.query10.Size = new System.Drawing.Size(497, 144);
             this.query10.TabIndex = 165;
             this.query10.Text = "";
             // 
@@ -501,18 +534,20 @@ namespace Latest_27_05
             this.markTen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.markTen.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.markTen.ForeColor = System.Drawing.SystemColors.Menu;
-            this.markTen.Location = new System.Drawing.Point(99, 341);
+            this.markTen.Location = new System.Drawing.Point(132, 420);
+            this.markTen.Margin = new System.Windows.Forms.Padding(4);
             this.markTen.Name = "markTen";
-            this.markTen.Size = new System.Drawing.Size(32, 21);
+            this.markTen.Size = new System.Drawing.Size(42, 25);
             this.markTen.TabIndex = 163;
             this.markTen.Text = "1";
             // 
             // checkBox6
             // 
             this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(453, 180);
+            this.checkBox6.Location = new System.Drawing.Point(604, 222);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(15, 14);
+            this.checkBox6.Size = new System.Drawing.Size(18, 17);
             this.checkBox6.TabIndex = 184;
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
@@ -520,18 +555,20 @@ namespace Latest_27_05
             // 
             this.q9.AutoSize = true;
             this.q9.ForeColor = System.Drawing.SystemColors.Control;
-            this.q9.Location = new System.Drawing.Point(474, 179);
+            this.q9.Location = new System.Drawing.Point(632, 220);
+            this.q9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q9.Name = "q9";
-            this.q9.Size = new System.Drawing.Size(53, 15);
+            this.q9.Size = new System.Drawing.Size(63, 17);
             this.q9.TabIndex = 182;
             this.q9.Text = "9 Marks:";
             // 
             // checkBox7
             // 
             this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(453, 18);
+            this.checkBox7.Location = new System.Drawing.Point(604, 22);
+            this.checkBox7.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(15, 14);
+            this.checkBox7.Size = new System.Drawing.Size(18, 17);
             this.checkBox7.TabIndex = 180;
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
@@ -539,18 +576,20 @@ namespace Latest_27_05
             // 
             this.q7.AutoSize = true;
             this.q7.ForeColor = System.Drawing.SystemColors.Control;
-            this.q7.Location = new System.Drawing.Point(474, 17);
+            this.q7.Location = new System.Drawing.Point(632, 21);
+            this.q7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q7.Name = "q7";
-            this.q7.Size = new System.Drawing.Size(53, 15);
+            this.q7.Size = new System.Drawing.Size(63, 17);
             this.q7.TabIndex = 178;
             this.q7.Text = "7 Marks:";
             // 
             // checkBox8
             // 
             this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(19, 18);
+            this.checkBox8.Location = new System.Drawing.Point(25, 22);
+            this.checkBox8.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(15, 14);
+            this.checkBox8.Size = new System.Drawing.Size(18, 17);
             this.checkBox8.TabIndex = 176;
             this.checkBox8.UseVisualStyleBackColor = true;
             // 
@@ -558,18 +597,20 @@ namespace Latest_27_05
             // 
             this.q6.AutoSize = true;
             this.q6.ForeColor = System.Drawing.SystemColors.Control;
-            this.q6.Location = new System.Drawing.Point(40, 17);
+            this.q6.Location = new System.Drawing.Point(53, 21);
+            this.q6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q6.Name = "q6";
-            this.q6.Size = new System.Drawing.Size(53, 15);
+            this.q6.Size = new System.Drawing.Size(63, 17);
             this.q6.TabIndex = 174;
             this.q6.Text = "6 Marks:";
             // 
             // checkBox9
             // 
             this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(19, 180);
+            this.checkBox9.Location = new System.Drawing.Point(25, 222);
+            this.checkBox9.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(15, 14);
+            this.checkBox9.Size = new System.Drawing.Size(18, 17);
             this.checkBox9.TabIndex = 172;
             this.checkBox9.UseVisualStyleBackColor = true;
             // 
@@ -577,18 +618,20 @@ namespace Latest_27_05
             // 
             this.q8.AutoSize = true;
             this.q8.ForeColor = System.Drawing.SystemColors.Control;
-            this.q8.Location = new System.Drawing.Point(40, 179);
+            this.q8.Location = new System.Drawing.Point(53, 220);
+            this.q8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q8.Name = "q8";
-            this.q8.Size = new System.Drawing.Size(53, 15);
+            this.q8.Size = new System.Drawing.Size(63, 17);
             this.q8.TabIndex = 170;
             this.q8.Text = "8 Marks:";
             // 
             // checkBox11
             // 
             this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(19, 345);
+            this.checkBox11.Location = new System.Drawing.Point(25, 425);
+            this.checkBox11.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(15, 14);
+            this.checkBox11.Size = new System.Drawing.Size(18, 17);
             this.checkBox11.TabIndex = 164;
             this.checkBox11.UseVisualStyleBackColor = true;
             // 
@@ -596,9 +639,10 @@ namespace Latest_27_05
             // 
             this.q10.AutoSize = true;
             this.q10.ForeColor = System.Drawing.SystemColors.Control;
-            this.q10.Location = new System.Drawing.Point(40, 343);
+            this.q10.Location = new System.Drawing.Point(53, 422);
+            this.q10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q10.Name = "q10";
-            this.q10.Size = new System.Drawing.Size(60, 15);
+            this.q10.Size = new System.Drawing.Size(71, 17);
             this.q10.TabIndex = 162;
             this.q10.Text = "10 Marks:";
             // 
@@ -626,9 +670,10 @@ namespace Latest_27_05
             this.queryPageThree.Controls.Add(this.checkBox18);
             this.queryPageThree.Controls.Add(this.q15);
             this.queryPageThree.Font = new System.Drawing.Font("Arial", 9F);
-            this.queryPageThree.Location = new System.Drawing.Point(4, 22);
+            this.queryPageThree.Location = new System.Drawing.Point(4, 25);
+            this.queryPageThree.Margin = new System.Windows.Forms.Padding(4);
             this.queryPageThree.Name = "queryPageThree";
-            this.queryPageThree.Size = new System.Drawing.Size(847, 497);
+            this.queryPageThree.Size = new System.Drawing.Size(1132, 615);
             this.queryPageThree.TabIndex = 2;
             this.queryPageThree.Text = "Query 11-15";
             // 
@@ -636,10 +681,11 @@ namespace Latest_27_05
             // 
             this.query14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query14.ForeColor = System.Drawing.Color.White;
-            this.query14.Location = new System.Drawing.Point(453, 204);
+            this.query14.Location = new System.Drawing.Point(604, 251);
+            this.query14.Margin = new System.Windows.Forms.Padding(4);
             this.query14.Name = "query14";
             this.query14.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query14.Size = new System.Drawing.Size(374, 118);
+            this.query14.Size = new System.Drawing.Size(497, 144);
             this.query14.TabIndex = 185;
             this.query14.Text = "";
             // 
@@ -649,9 +695,10 @@ namespace Latest_27_05
             this.mark14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mark14.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mark14.ForeColor = System.Drawing.SystemColors.Menu;
-            this.mark14.Location = new System.Drawing.Point(534, 177);
+            this.mark14.Location = new System.Drawing.Point(712, 218);
+            this.mark14.Margin = new System.Windows.Forms.Padding(4);
             this.mark14.Name = "mark14";
-            this.mark14.Size = new System.Drawing.Size(32, 21);
+            this.mark14.Size = new System.Drawing.Size(42, 25);
             this.mark14.TabIndex = 183;
             this.mark14.Text = "1";
             // 
@@ -659,10 +706,11 @@ namespace Latest_27_05
             // 
             this.query12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query12.ForeColor = System.Drawing.Color.White;
-            this.query12.Location = new System.Drawing.Point(453, 42);
+            this.query12.Location = new System.Drawing.Point(604, 52);
+            this.query12.Margin = new System.Windows.Forms.Padding(4);
             this.query12.Name = "query12";
             this.query12.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query12.Size = new System.Drawing.Size(374, 118);
+            this.query12.Size = new System.Drawing.Size(497, 144);
             this.query12.TabIndex = 181;
             this.query12.Text = "";
             // 
@@ -672,9 +720,10 @@ namespace Latest_27_05
             this.mark12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mark12.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mark12.ForeColor = System.Drawing.SystemColors.Menu;
-            this.mark12.Location = new System.Drawing.Point(534, 13);
+            this.mark12.Location = new System.Drawing.Point(712, 16);
+            this.mark12.Margin = new System.Windows.Forms.Padding(4);
             this.mark12.Name = "mark12";
-            this.mark12.Size = new System.Drawing.Size(32, 21);
+            this.mark12.Size = new System.Drawing.Size(42, 25);
             this.mark12.TabIndex = 179;
             this.mark12.Text = "1";
             // 
@@ -682,10 +731,11 @@ namespace Latest_27_05
             // 
             this.query11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query11.ForeColor = System.Drawing.Color.White;
-            this.query11.Location = new System.Drawing.Point(19, 42);
+            this.query11.Location = new System.Drawing.Point(25, 52);
+            this.query11.Margin = new System.Windows.Forms.Padding(4);
             this.query11.Name = "query11";
             this.query11.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query11.Size = new System.Drawing.Size(374, 118);
+            this.query11.Size = new System.Drawing.Size(497, 144);
             this.query11.TabIndex = 177;
             this.query11.Text = "";
             // 
@@ -695,9 +745,10 @@ namespace Latest_27_05
             this.mark11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mark11.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mark11.ForeColor = System.Drawing.SystemColors.Menu;
-            this.mark11.Location = new System.Drawing.Point(105, 13);
+            this.mark11.Location = new System.Drawing.Point(140, 16);
+            this.mark11.Margin = new System.Windows.Forms.Padding(4);
             this.mark11.Name = "mark11";
-            this.mark11.Size = new System.Drawing.Size(32, 21);
+            this.mark11.Size = new System.Drawing.Size(42, 25);
             this.mark11.TabIndex = 175;
             this.mark11.Text = "1";
             // 
@@ -705,10 +756,11 @@ namespace Latest_27_05
             // 
             this.query13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query13.ForeColor = System.Drawing.Color.White;
-            this.query13.Location = new System.Drawing.Point(19, 204);
+            this.query13.Location = new System.Drawing.Point(25, 251);
+            this.query13.Margin = new System.Windows.Forms.Padding(4);
             this.query13.Name = "query13";
             this.query13.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query13.Size = new System.Drawing.Size(374, 118);
+            this.query13.Size = new System.Drawing.Size(497, 144);
             this.query13.TabIndex = 173;
             this.query13.Text = "";
             // 
@@ -718,9 +770,10 @@ namespace Latest_27_05
             this.mark13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mark13.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mark13.ForeColor = System.Drawing.SystemColors.Menu;
-            this.mark13.Location = new System.Drawing.Point(105, 177);
+            this.mark13.Location = new System.Drawing.Point(140, 218);
+            this.mark13.Margin = new System.Windows.Forms.Padding(4);
             this.mark13.Name = "mark13";
-            this.mark13.Size = new System.Drawing.Size(32, 21);
+            this.mark13.Size = new System.Drawing.Size(42, 25);
             this.mark13.TabIndex = 171;
             this.mark13.Text = "1";
             // 
@@ -728,10 +781,11 @@ namespace Latest_27_05
             // 
             this.query15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.query15.ForeColor = System.Drawing.Color.White;
-            this.query15.Location = new System.Drawing.Point(19, 368);
+            this.query15.Location = new System.Drawing.Point(25, 453);
+            this.query15.Margin = new System.Windows.Forms.Padding(4);
             this.query15.Name = "query15";
             this.query15.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query15.Size = new System.Drawing.Size(374, 118);
+            this.query15.Size = new System.Drawing.Size(497, 144);
             this.query15.TabIndex = 165;
             this.query15.Text = "";
             // 
@@ -741,18 +795,20 @@ namespace Latest_27_05
             this.mark15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mark15.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mark15.ForeColor = System.Drawing.SystemColors.Menu;
-            this.mark15.Location = new System.Drawing.Point(105, 341);
+            this.mark15.Location = new System.Drawing.Point(140, 420);
+            this.mark15.Margin = new System.Windows.Forms.Padding(4);
             this.mark15.Name = "mark15";
-            this.mark15.Size = new System.Drawing.Size(32, 21);
+            this.mark15.Size = new System.Drawing.Size(42, 25);
             this.mark15.TabIndex = 163;
             this.mark15.Text = "1";
             // 
             // checkBox12
             // 
             this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(453, 180);
+            this.checkBox12.Location = new System.Drawing.Point(604, 222);
+            this.checkBox12.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(15, 14);
+            this.checkBox12.Size = new System.Drawing.Size(18, 17);
             this.checkBox12.TabIndex = 184;
             this.checkBox12.UseVisualStyleBackColor = true;
             // 
@@ -760,18 +816,20 @@ namespace Latest_27_05
             // 
             this.q14.AutoSize = true;
             this.q14.ForeColor = System.Drawing.SystemColors.Control;
-            this.q14.Location = new System.Drawing.Point(474, 179);
+            this.q14.Location = new System.Drawing.Point(632, 220);
+            this.q14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q14.Name = "q14";
-            this.q14.Size = new System.Drawing.Size(60, 15);
+            this.q14.Size = new System.Drawing.Size(71, 17);
             this.q14.TabIndex = 182;
             this.q14.Text = "14 Marks:";
             // 
             // checkBox13
             // 
             this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(453, 18);
+            this.checkBox13.Location = new System.Drawing.Point(604, 22);
+            this.checkBox13.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(15, 14);
+            this.checkBox13.Size = new System.Drawing.Size(18, 17);
             this.checkBox13.TabIndex = 180;
             this.checkBox13.UseVisualStyleBackColor = true;
             // 
@@ -779,18 +837,20 @@ namespace Latest_27_05
             // 
             this.q12.AutoSize = true;
             this.q12.ForeColor = System.Drawing.SystemColors.Control;
-            this.q12.Location = new System.Drawing.Point(474, 17);
+            this.q12.Location = new System.Drawing.Point(632, 21);
+            this.q12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q12.Name = "q12";
-            this.q12.Size = new System.Drawing.Size(60, 15);
+            this.q12.Size = new System.Drawing.Size(71, 17);
             this.q12.TabIndex = 178;
             this.q12.Text = "12 Marks:";
             // 
             // checkBox14
             // 
             this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(19, 18);
+            this.checkBox14.Location = new System.Drawing.Point(25, 22);
+            this.checkBox14.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(15, 14);
+            this.checkBox14.Size = new System.Drawing.Size(18, 17);
             this.checkBox14.TabIndex = 176;
             this.checkBox14.UseVisualStyleBackColor = true;
             // 
@@ -798,18 +858,20 @@ namespace Latest_27_05
             // 
             this.q11.AutoSize = true;
             this.q11.ForeColor = System.Drawing.SystemColors.Control;
-            this.q11.Location = new System.Drawing.Point(40, 17);
+            this.q11.Location = new System.Drawing.Point(53, 21);
+            this.q11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q11.Name = "q11";
-            this.q11.Size = new System.Drawing.Size(59, 15);
+            this.q11.Size = new System.Drawing.Size(70, 17);
             this.q11.TabIndex = 174;
             this.q11.Text = "11 Marks:";
             // 
             // checkBox15
             // 
             this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(19, 180);
+            this.checkBox15.Location = new System.Drawing.Point(25, 222);
+            this.checkBox15.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(15, 14);
+            this.checkBox15.Size = new System.Drawing.Size(18, 17);
             this.checkBox15.TabIndex = 172;
             this.checkBox15.UseVisualStyleBackColor = true;
             // 
@@ -817,18 +879,20 @@ namespace Latest_27_05
             // 
             this.q13.AutoSize = true;
             this.q13.ForeColor = System.Drawing.SystemColors.Control;
-            this.q13.Location = new System.Drawing.Point(40, 179);
+            this.q13.Location = new System.Drawing.Point(53, 220);
+            this.q13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q13.Name = "q13";
-            this.q13.Size = new System.Drawing.Size(60, 15);
+            this.q13.Size = new System.Drawing.Size(71, 17);
             this.q13.TabIndex = 170;
             this.q13.Text = "13 Marks:";
             // 
             // checkBox18
             // 
             this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(19, 345);
+            this.checkBox18.Location = new System.Drawing.Point(25, 425);
+            this.checkBox18.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(15, 14);
+            this.checkBox18.Size = new System.Drawing.Size(18, 17);
             this.checkBox18.TabIndex = 164;
             this.checkBox18.UseVisualStyleBackColor = true;
             // 
@@ -836,9 +900,10 @@ namespace Latest_27_05
             // 
             this.q15.AutoSize = true;
             this.q15.ForeColor = System.Drawing.SystemColors.Control;
-            this.q15.Location = new System.Drawing.Point(40, 343);
+            this.q15.Location = new System.Drawing.Point(53, 422);
+            this.q15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.q15.Name = "q15";
-            this.q15.Size = new System.Drawing.Size(60, 15);
+            this.q15.Size = new System.Drawing.Size(71, 17);
             this.q15.TabIndex = 162;
             this.q15.Text = "15 Marks:";
             // 
@@ -848,12 +913,14 @@ namespace Latest_27_05
             this.loadButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.loadButton.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loadButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.loadButton.Location = new System.Drawing.Point(251, 565);
+            this.loadButton.Location = new System.Drawing.Point(335, 695);
+            this.loadButton.Margin = new System.Windows.Forms.Padding(4);
             this.loadButton.Name = "loadButton";
-            this.loadButton.Size = new System.Drawing.Size(108, 28);
+            this.loadButton.Size = new System.Drawing.Size(144, 34);
             this.loadButton.TabIndex = 191;
             this.loadButton.Text = "Load Queries";
             this.loadButton.UseVisualStyleBackColor = false;
+            this.loadButton.Click += new System.EventHandler(this.loadButton_Click);
             // 
             // executeButton
             // 
@@ -861,9 +928,10 @@ namespace Latest_27_05
             this.executeButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.executeButton.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.executeButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.executeButton.Location = new System.Drawing.Point(517, 565);
+            this.executeButton.Location = new System.Drawing.Point(689, 695);
+            this.executeButton.Margin = new System.Windows.Forms.Padding(4);
             this.executeButton.Name = "executeButton";
-            this.executeButton.Size = new System.Drawing.Size(108, 28);
+            this.executeButton.Size = new System.Drawing.Size(144, 34);
             this.executeButton.TabIndex = 190;
             this.executeButton.Text = "Execute";
             this.executeButton.UseVisualStyleBackColor = false;
@@ -875,18 +943,20 @@ namespace Latest_27_05
             this.exportButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.exportButton.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exportButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.exportButton.Location = new System.Drawing.Point(386, 565);
+            this.exportButton.Location = new System.Drawing.Point(515, 695);
+            this.exportButton.Margin = new System.Windows.Forms.Padding(4);
             this.exportButton.Name = "exportButton";
-            this.exportButton.Size = new System.Drawing.Size(108, 28);
+            this.exportButton.Size = new System.Drawing.Size(144, 34);
             this.exportButton.TabIndex = 189;
             this.exportButton.Text = "Export Queries";
             this.exportButton.UseVisualStyleBackColor = false;
             // 
             // location
             // 
-            this.location.Location = new System.Drawing.Point(773, 570);
+            this.location.Location = new System.Drawing.Point(1031, 702);
+            this.location.Margin = new System.Windows.Forms.Padding(4);
             this.location.Name = "location";
-            this.location.Size = new System.Drawing.Size(100, 20);
+            this.location.Size = new System.Drawing.Size(132, 22);
             this.location.TabIndex = 192;
             this.location.TextChanged += new System.EventHandler(this.location_TextChanged);
             // 
@@ -908,9 +978,10 @@ namespace Latest_27_05
             this.reset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.reset.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold);
             this.reset.ForeColor = System.Drawing.SystemColors.Control;
-            this.reset.Location = new System.Drawing.Point(648, 565);
+            this.reset.Location = new System.Drawing.Point(864, 695);
+            this.reset.Margin = new System.Windows.Forms.Padding(4);
             this.reset.Name = "reset";
-            this.reset.Size = new System.Drawing.Size(108, 28);
+            this.reset.Size = new System.Drawing.Size(144, 34);
             this.reset.TabIndex = 193;
             this.reset.Text = "Reset Query";
             this.reset.UseVisualStyleBackColor = true;
@@ -918,10 +989,10 @@ namespace Latest_27_05
             // 
             // frmQueries
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.ClientSize = new System.Drawing.Size(899, 605);
+            this.ClientSize = new System.Drawing.Size(1199, 745);
             this.Controls.Add(this.reset);
             this.Controls.Add(this.location);
             this.Controls.Add(this.loadButton);
@@ -929,6 +1000,7 @@ namespace Latest_27_05
             this.Controls.Add(this.exportButton);
             this.Controls.Add(this.queriesTab);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmQueries";
             this.Text = "frmQueries";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmQueries_FormClosed);
